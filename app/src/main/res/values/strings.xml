@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movies</string>
+    <string name="reviews">Reviews</string>
+    <string name="addFavouriteMovie">The movie "%s" was successfully added to Favourites</string>
+    <string name="removeFavouriteMovie">The movie "%s" was successfully deleted from Favourites</string>
+    <string name="favourites">Favourites</string>
+</resources>

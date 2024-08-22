@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="4dp"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.85"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:background="@color/green">
+
+        <TextView
+            android:id="@+id/textViewAuthorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:textColor="@color/milk"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Author name" />
+
+        <TextView
+            android:id="@+id/textViewReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/milk"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            tools:text="This is my review for the movie. Usually I don't write reviews for movies because I prefer to write the code for my applications. Also I'd like to test my apps for its lovely working. Testing. Testing. Testing." />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
